@@ -99,3 +99,27 @@ body{
     text-align: center;
 
 }
+
+/* service section  */
+.service{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin: 120px;
+    padding: 70px 0 60px;
+    border-radius: 10px;
+}
+
+
+.service-each > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.service-title{
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.8);
+    text-align: center;
+    margin-top: 24px;
+}
