@@ -123,3 +123,114 @@ body{
     text-align: center;
     margin-top: 24px;
 }
+
+/* sale section  */
+.sale{
+    display: flex;
+    gap: 150px;
+    background-color: rgba(229, 84, 115, 0.05);
+    border-radius: 8px;
+    padding: 70px 250px;
+
+}
+.sale-content{
+    text-align: center;
+
+
+}
+.sale-title{
+    font-weight: 800;
+    font-size: 40px;
+    color: #272727;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+.sale-title>span{
+    color: #E55473;
+}
+.sale-desc{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 24px;
+
+}
+/* insta section  */
+.instagram{
+    margin: 120px;
+}
+.insta-image{
+    display: flex;
+    justify-content: space-between;
+}
+.insta-image > img{
+    width: 310px;
+    height: 360px;
+}
+
+/* subscribe section  */
+
+.subscribe{
+    background-image: url('../asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: center;
+    border-radius: 8px;
+    margin: 0px 120px;
+    padding: 80px 250px;
+
+}
+.subscribe-email{
+    display: flex;
+    gap: 16px;
+}
+.subs-email{
+    background-color: white;
+    color: rgba(39, 39, 39, 0.6);
+    border: none;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 22px;
+    width: 600px;
+}
+
+/* Footer section  */
+.footer{
+    background-color: #111010;
+    padding: 100px 500px;
+    margin-top: 120px;
+
+}
+.footer-title{
+    font-weight: 800;
+    font-size: 48px;
+    color: #E55473;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.footer-title > span{
+    color: white;
+    
+
+}
+.footer-desc{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 32px;
+
+}
+.footer-copyright{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    margin-top: 0;
+
+}
